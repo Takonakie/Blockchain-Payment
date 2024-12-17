@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/transactionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No transaction received yet"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/sendPaymentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Payment" />
+
+    <Button
+        android:id="@+id/syncButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync to Blockchain" />
+</LinearLayout>
